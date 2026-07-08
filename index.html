@@ -6,6 +6,7 @@
 <title>Tebou — Arquitectura en guadua</title>
 <meta name="description" content="Tebou, estudio de arquitectura especializado en bambú guadua. Proyectos y talleres entre el Valle del Cauca, Europa y América Latina.">
 <link rel="stylesheet" href="style.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
 
@@ -223,6 +224,17 @@
 
 <script>window.CONTENT_URL = 'content/es.json';</script>
 <script src="content.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', user => {
+        if (!user) {
+          window.netlifyIdentity.on('login', () => {
+            document.location.href = '/admin/';
+          });
+        }
+      });
+    }
+      </script>
 <script>
   document.getElementById('year-es').textContent = new Date().getFullYear();
 
