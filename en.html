@@ -6,6 +6,7 @@
 <title>Tebou — Bamboo Architecture</title>
 <meta name="description" content="Tebou, an architecture studio specialized in guadua bamboo. Projects and workshops between the Cauca Valley, Europe and Latin America.">
 <link rel="stylesheet" href="style.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
 
@@ -223,6 +224,17 @@
 
 <script>window.CONTENT_URL = 'content/en.json';</script>
 <script src="content.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', user => {
+        if (!user) {
+          window.netlifyIdentity.on('login', () => {
+            document.location.href = '/admin/';
+          });
+        }
+      });
+    }
+      </script>
 <script>
   document.getElementById('year-en').textContent = new Date().getFullYear();
 
