@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "eyebrow": "Architecture studio",
+    "title_1": "Tebou",
+    "title_2": "bamboo architecture",
+    "tagline": "From the scale model to the real thing: we build in bamboo, and teach others to build in bamboo.",
+    "image": ""
+  },
+  "studio": {
+    "kicker": "The studio",
+    "title": "Architects specialized in a single material: bamboo",
+    "lede": "Tebou is an architecture studio devoted entirely to guadua, the great American bamboo. We design, build and teach, always from the same principle: know the material thoroughly before drawing the first line.",
+    "body": "We work with guadua as structure, as skin and as language, combining traditional techniques from Cauca Valley communities with contemporary calculation and detailing methods. Every project — a house, a pavilion, a classroom — is also an act of transmission: we show how bamboo is cut, cured, connected and raised, so the technique doesn't stay only in our hands."
+  },
+  "experience": {
+    "kicker": "Experience",
+    "title": "Based in the Cauca Valley, working across the world",
+    "lede": "Our workshop and our bamboo grove are in the Cauca Valley, Colombia, the historic heartland of bamboo construction. From there we travel to build, teach and advise wherever bamboo starts being taken seriously as a material.",
+    "travel_1_place": "Cauca Valley, Colombia",
+    "travel_1_detail": "Studio and bamboo grove headquarters. Design, cutting, curing and prototype construction.",
+    "travel_2_place": "Latin America",
+    "travel_2_detail": "Projects and workshops in Mexico, Peru and Ecuador, in collaboration with local communities and universities.",
+    "travel_3_place": "Europe",
+    "travel_3_detail": "Scale-model workshops and lectures in Spain, France and Italy, plus technical consulting for experimental bamboo projects.",
+    "stat_1_num": "12+",
+    "stat_1_label": "years building in guadua",
+    "stat_2_num": "30+",
+    "stat_2_label": "workshops taught",
+    "stat_3_num": "3",
+    "stat_3_label": "continents covered",
+    "cta_text": "Let's talk about your project",
+    "cta_note": "We reply within 48 hours"
+  },
+  "projects": {
+    "kicker": "Built projects",
+    "title": "Bamboo work, from sketch to finished room",
+    "lede": "A selection of houses, pavilions and community spaces built entirely in guadua bamboo.",
+    "photo_1": { "src": "", "caption": "House, Cauca Valley" },
+    "photo_2": { "src": "", "caption": "Joint detail" },
+    "photo_3": { "src": "", "caption": "Roof structure" },
+    "photo_4": { "src": "", "caption": "Community pavilion" },
+    "photo_5": { "src": "", "caption": "Interior, natural light" }
+  },
+  "model_workshops": {
+    "kicker": "Workshops",
+    "title": "Bamboo scale-model workshops",
+    "lede": "An intensive workshop to learn how to design and build bamboo scale models: how to cut at this scale, how to simulate real joints, and how to think through a guadua structure before building it full-size.",
+    "body": "Designed for architecture students, designers and anyone curious about the material. Small groups, all materials included, and a finished prototype by the end of each session.",
+    "cta_text": "Book a spot",
+    "photo_1": { "src": "", "caption": "Model workshop" },
+    "photo_2": { "src": "", "caption": "Finished model" },
+    "photo_3": { "src": "", "caption": "Node detail" },
+    "photo_4": { "src": "", "caption": "Working group" }
+  },
+  "full_scale_workshops": {
+    "kicker": "Workshops",
+    "title": "Full-scale (1:1) construction workshops",
+    "lede": "From paper to real structure: an intensive workshop where the group raises a full-size guadua structure, from selecting and curing the bamboo through to final assembly.",
+    "body": "Ideal for collectives, architecture schools and communities looking to adopt guadua as a construction technique of their own. Adapted to local terrain and climate at each destination.",
+    "cta_text": "Organize a workshop",
+    "photo_1": { "src": "", "caption": "Raising the structure" },
+    "photo_2": { "src": "", "caption": "Cutting and curing guadua" },
+    "photo_3": { "src": "", "caption": "Real structural joint" },
+    "photo_4": { "src": "", "caption": "Building finished by the group" }
+  },
+  "past_workshops": {
+    "kicker": "Past workshops",
+    "title": "Some of the groups we've built with",
+    "photo_1": { "src": "", "caption": "Workshop, Spain" },
+    "photo_2": { "src": "", "caption": "Workshop, Peru" },
+    "photo_3": { "src": "", "caption": "Workshop, Colombia" },
+    "photo_4": { "src": "", "caption": "Workshop, Mexico" },
+    "photo_5": { "src": "", "caption": "Workshop, France" },
+    "photo_6": { "src": "", "caption": "Workshop, Ecuador" }
+  },
+  "plans": {
+    "kicker": "Technical documentation",
+    "title": "Plans, sections and detail drawings",
+    "lede": "Every structure is documented in detail: floor plans, construction sections and joint breakdowns, designed so the work can be repeated elsewhere.",
+    "cta_text": "Request project dossier",
+    "photo_1": { "src": "", "caption": "General layout" },
+    "photo_2": { "src": "", "caption": "Joint detail" },
+    "photo_3": { "src": "", "caption": "Construction detail" }
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Let's build with bamboo",
+    "lede": "Projects, workshops or technical consulting: tell us where and what you need to build.",
+    "email": "hello@tebou.studio",
+    "phone": "+57 300 000 0000",
+    "location": "Cauca Valley, Colombia",
+    "cta_text": "Write to Tebou"
+  }
+}

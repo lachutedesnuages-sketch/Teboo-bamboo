@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tebou — Bamboo Architecture</title>
+<meta name="description" content="Tebou, an architecture studio specialized in guadua bamboo. Projects and workshops between the Cauca Valley, Europe and Latin America.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="brand-bar" id="brandBar">
+  <span class="brand">Tebou</span>
+  <span class="lang"><a href="index.html">ES</a><a href="en.html" class="active">EN</a></span>
+</div>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="photo-slot" style="position:absolute;inset:0;">
+    <img data-bind-img="hero.image" alt="Tebou — opening photo">
+    <span class="tag">Opening photo — bamboo building</span>
+  </div>
+  <div class="hero-content">
+    <span class="eyebrow" data-bind="hero.eyebrow">Architecture studio</span>
+    <h1><span data-bind="hero.title_1">Tebou</span><br><em data-bind="hero.title_2">bamboo architecture</em></h1>
+    <p class="tagline" data-bind="hero.tagline">From the scale model to the real thing.</p>
+  </div>
+  <div class="scroll-cue"><span class="line"></span> Scroll</div>
+</header>
+
+<!-- ============ STUDIO ============ -->
+<section class="section" id="studio">
+  <div class="wrap two-col reveal">
+    <div>
+      <span class="kicker" data-bind="studio.kicker">The studio</span>
+      <h2 class="section-title" data-bind="studio.title">Architects specialized in a single material: bamboo</h2>
+    </div>
+    <div>
+      <p class="lede" data-bind="studio.lede">Tebou is an architecture studio devoted entirely to guadua...</p>
+      <p class="body-copy" style="margin-top:1.4rem;" data-bind="studio.body">We work with guadua as structure...</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider-wrap"><div class="node-divider"><span class="seg"></span><span class="node"></span><span class="seg"></span><span class="node"></span><span class="seg"></span></div></div>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section on-sand" id="experience">
+  <div class="wrap reveal">
+    <span class="kicker" data-bind="experience.kicker">Experience</span>
+    <h2 class="section-title" data-bind="experience.title">Based in the Cauca Valley, working across the world</h2>
+    <p class="lede" data-bind="experience.lede">Our workshop and our bamboo grove are in the Cauca Valley...</p>
+
+    <ul class="travel-log">
+      <li>
+        <span class="place" data-bind="experience.travel_1_place">Cauca Valley, Colombia</span>
+        <span class="detail" data-bind="experience.travel_1_detail">Studio and bamboo grove headquarters.</span>
+      </li>
+      <li>
+        <span class="place" data-bind="experience.travel_2_place">Latin America</span>
+        <span class="detail" data-bind="experience.travel_2_detail">Projects and workshops in Mexico, Peru and Ecuador.</span>
+      </li>
+      <li>
+        <span class="place" data-bind="experience.travel_3_place">Europe</span>
+        <span class="detail" data-bind="experience.travel_3_detail">Scale-model workshops and lectures in Spain, France and Italy.</span>
+      </li>
+    </ul>
+
+    <div class="stats">
+      <div>
+        <div class="num" data-bind="experience.stat_1_num">12+</div>
+        <div class="label" data-bind="experience.stat_1_label">years building in guadua</div>
+      </div>
+      <div>
+        <div class="num" data-bind="experience.stat_2_num">30+</div>
+        <div class="label" data-bind="experience.stat_2_label">workshops taught</div>
+      </div>
+      <div>
+        <div class="num" data-bind="experience.stat_3_num">3</div>
+        <div class="label" data-bind="experience.stat_3_label">continents covered</div>
+      </div>
+    </div>
+
+    <div class="cta-row">
+      <a class="btn btn-line" href="#contact" data-bind="experience.cta_text">Let's talk about your project</a>
+      <span class="cta-note" data-bind="experience.cta_note">We reply within 48 hours</span>
+    </div>
+  </div>
+</section>
+
+<div class="divider-wrap"><div class="node-divider"><span class="seg"></span><span class="node"></span><span class="seg"></span><span class="node"></span><span class="seg"></span></div></div>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="projects">
+  <div class="wrap reveal">
+    <span class="kicker" data-bind="projects.kicker">Built projects</span>
+    <h2 class="section-title" data-bind="projects.title">Bamboo work, from sketch to finished room</h2>
+    <p class="lede" style="margin-bottom:2.5rem;" data-bind="projects.lede">A selection of houses, pavilions and community spaces...</p>
+
+    <div class="gallery g-mix">
+      <div class="photo-slot ph-16x9"><img data-bind-img="projects.photo_1.src" alt="House, Cauca Valley"><span class="tag">Photo — House, Cauca Valley</span></div>
+      <div class="photo-slot ph-1x1"><img data-bind-img="projects.photo_2.src" alt="Joint detail"><span class="tag">Photo — Joint detail</span></div>
+      <div class="photo-slot ph-1x1"><img data-bind-img="projects.photo_3.src" alt="Roof structure"><span class="tag">Photo — Roof structure</span></div>
+      <div class="photo-slot ph-4x5"><img data-bind-img="projects.photo_4.src" alt="Community pavilion"><span class="tag">Photo — Community pavilion</span></div>
+      <div class="photo-slot ph-4x5"><img data-bind-img="projects.photo_5.src" alt="Interior, natural light"><span class="tag">Photo — Interior, natural light</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider-wrap"><div class="node-divider"><span class="seg"></span><span class="node"></span><span class="seg"></span><span class="node"></span><span class="seg"></span></div></div>
+
+<!-- ============ MODEL WORKSHOPS ============ -->
+<section class="section on-forest" id="model-workshops">
+  <div class="wrap two-col reveal">
+    <div>
+      <span class="kicker" data-bind="model_workshops.kicker">Workshops</span>
+      <h2 class="section-title" data-bind="model_workshops.title">Bamboo scale-model workshops</h2>
+      <p class="lede" data-bind="model_workshops.lede">An intensive workshop to learn how to design and build bamboo scale models...</p>
+      <p class="body-copy" style="margin-top:1.2rem;" data-bind="model_workshops.body">Designed for architecture students, designers and anyone curious about the material.</p>
+      <div class="cta-row">
+        <a class="btn btn-solid" href="#contact" data-bind="model_workshops.cta_text">Book a spot</a>
+      </div>
+    </div>
+    <div class="gallery g-4" style="grid-template-columns:1fr 1fr;">
+      <div class="photo-slot ph-1x1"><img data-bind-img="model_workshops.photo_1.src" alt="Model workshop"><span class="tag">Photo — Model workshop</span></div>
+      <div class="photo-slot ph-1x1"><img data-bind-img="model_workshops.photo_2.src" alt="Finished model"><span class="tag">Photo — Finished model</span></div>
+      <div class="photo-slot ph-1x1"><img data-bind-img="model_workshops.photo_3.src" alt="Node detail"><span class="tag">Photo — Node detail</span></div>
+      <div class="photo-slot ph-1x1"><img data-bind-img="model_workshops.photo_4.src" alt="Working group"><span class="tag">Photo — Working group</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FULL-SCALE WORKSHOPS ============ -->
+<section class="section on-sand" id="full-scale-workshops">
+  <div class="wrap two-col reveal">
+    <div class="gallery g-4" style="grid-template-columns:1fr 1fr;">
+      <div class="photo-slot ph-1x1"><img data-bind-img="full_scale_workshops.photo_1.src" alt="Raising the structure"><span class="tag">Photo — Raising the structure</span></div>
+      <div class="photo-slot ph-1x1"><img data-bind-img="full_scale_workshops.photo_2.src" alt="Cutting and curing guadua"><span class="tag">Photo — Cutting and curing guadua</span></div>
+      <div class="photo-slot ph-1x1"><img data-bind-img="full_scale_workshops.photo_3.src" alt="Real structural joint"><span class="tag">Photo — Real structural joint</span></div>
+      <div class="photo-slot ph-1x1"><img data-bind-img="full_scale_workshops.photo_4.src" alt="Building finished by the group"><span class="tag">Photo — Building finished by the group</span></div>
+    </div>
+    <div>
+      <span class="kicker" data-bind="full_scale_workshops.kicker">Workshops</span>
+      <h2 class="section-title" data-bind="full_scale_workshops.title">Full-scale (1:1) construction workshops</h2>
+      <p class="lede" data-bind="full_scale_workshops.lede">From paper to real structure...</p>
+      <p class="body-copy" style="margin-top:1.2rem;" data-bind="full_scale_workshops.body">Ideal for collectives, architecture schools and communities...</p>
+      <div class="cta-row">
+        <a class="btn btn-line" href="#contact" data-bind="full_scale_workshops.cta_text">Organize a workshop</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider-wrap"><div class="node-divider"><span class="seg"></span><span class="node"></span><span class="seg"></span><span class="node"></span><span class="seg"></span></div></div>
+
+<!-- ============ PAST WORKSHOPS ============ -->
+<section class="section" id="past-workshops">
+  <div class="wrap reveal">
+    <span class="kicker" data-bind="past_workshops.kicker">Past workshops</span>
+    <h2 class="section-title" data-bind="past_workshops.title">Some of the groups we've built with</h2>
+    <div class="gallery g-3" style="margin-top:2.5rem;">
+      <div class="photo-slot ph-3x2"><img data-bind-img="past_workshops.photo_1.src" alt="Workshop, Spain"><span class="tag">Photo — Workshop, Spain</span></div>
+      <div class="photo-slot ph-3x2"><img data-bind-img="past_workshops.photo_2.src" alt="Workshop, Peru"><span class="tag">Photo — Workshop, Peru</span></div>
+      <div class="photo-slot ph-3x2"><img data-bind-img="past_workshops.photo_3.src" alt="Workshop, Colombia"><span class="tag">Photo — Workshop, Colombia</span></div>
+      <div class="photo-slot ph-3x2"><img data-bind-img="past_workshops.photo_4.src" alt="Workshop, Mexico"><span class="tag">Photo — Workshop, Mexico</span></div>
+      <div class="photo-slot ph-3x2"><img data-bind-img="past_workshops.photo_5.src" alt="Workshop, France"><span class="tag">Photo — Workshop, France</span></div>
+      <div class="photo-slot ph-3x2"><img data-bind-img="past_workshops.photo_6.src" alt="Workshop, Ecuador"><span class="tag">Photo — Workshop, Ecuador</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider-wrap"><div class="node-divider"><span class="seg"></span><span class="node"></span><span class="seg"></span><span class="node"></span><span class="seg"></span></div></div>
+
+<!-- ============ PLANS & DRAWINGS ============ -->
+<section class="section on-sand" id="plans">
+  <div class="wrap reveal">
+    <span class="kicker" data-bind="plans.kicker">Technical documentation</span>
+    <h2 class="section-title" data-bind="plans.title">Plans, sections and detail drawings</h2>
+    <p class="lede" style="margin-bottom:2.5rem;" data-bind="plans.lede">Every structure is documented in detail...</p>
+    <div class="gallery g-3">
+      <div class="photo-slot ph-4x5"><img data-bind-img="plans.photo_1.src" alt="General layout"><span class="tag">Plan — General layout</span></div>
+      <div class="photo-slot ph-4x5"><img data-bind-img="plans.photo_2.src" alt="Joint detail"><span class="tag">Drawing — Joint detail</span></div>
+      <div class="photo-slot ph-4x5"><img data-bind-img="plans.photo_3.src" alt="Construction detail"><span class="tag">Section — Construction detail</span></div>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-line" href="#contact" data-bind="plans.cta_text">Request project dossier</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="wrap reveal">
+    <span class="kicker" data-bind="contact.kicker">Contact</span>
+    <h2 data-bind="contact.title">Let's build with bamboo</h2>
+    <p class="lede" data-bind="contact.lede">Projects, workshops or technical consulting...</p>
+
+    <div class="contact-grid">
+      <div class="contact-item">
+        <span class="kicker">Email</span>
+        <a href="mailto:hello@tebou.studio" data-bind="contact.email" id="contact-email-text">hello@tebou.studio</a>
+      </div>
+      <div class="contact-item">
+        <span class="kicker">Phone / WhatsApp</span>
+        <a href="tel:+573000000000" data-bind="contact.phone" id="contact-phone-text">+57 300 000 0000</a>
+      </div>
+      <div class="contact-item">
+        <span class="kicker">Based in</span>
+        <p data-bind="contact.location">Cauca Valley, Colombia</p>
+      </div>
+    </div>
+
+    <div class="cta-row">
+      <a class="btn btn-solid" href="mailto:hello@tebou.studio" id="contact-cta" data-bind="contact.cta_text">Write to Tebou</a>
+    </div>
+
+    <footer class="credits">
+      <span>© <span id="year-en"></span> Tebou — Bamboo Architecture</span>
+      <span><a href="index.html" style="text-decoration:none;border-bottom:1px solid rgba(247,244,236,0.35);">Ver en español</a></span>
+    </footer>
+  </div>
+</section>
+
+<script>window.CONTENT_URL = 'content/en.json';</script>
+<script src="content.js"></script>
+<script>
+  document.getElementById('year-en').textContent = new Date().getFullYear();
+
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      const email = document.getElementById('contact-email-text');
+      if (email) document.querySelectorAll('a[href^="mailto:"]').forEach(a => a.href = 'mailto:' + email.textContent.trim());
+      const phone = document.getElementById('contact-phone-text');
+      if (phone) document.querySelectorAll('a[href^="tel:"]').forEach(a => a.href = 'tel:' + phone.textContent.trim().replace(/\s+/g, ''));
+    }, 300);
+  });
+
+  const hero = document.querySelector('.hero');
+  const bar = document.getElementById('brandBar');
+  const io1 = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ bar.classList.toggle('is-dark', !e.isIntersecting); });
+  }, { threshold:0.15 });
+  io1.observe(hero);
+
+  const revealEls = document.querySelectorAll('.reveal');
+  const io2 = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){ e.target.classList.add('is-visible'); io2.unobserve(e.target); }
+    });
+  }, { threshold:0.12 });
+  revealEls.forEach(el=>io2.observe(el));
+</script>
+
+</body>
+</html>

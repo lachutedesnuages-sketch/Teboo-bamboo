@@ -1,0 +1,478 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+locale: "es"
+
+collections:
+  - name: "contenido"
+    label: "Contenido del sitio"
+    files:
+      - file: "content/es.json"
+        label: "🇪🇸 Español"
+        name: "es"
+        fields:
+          - label: "Portada (hero)"
+            name: "hero"
+            widget: object
+            fields:
+              - { label: "Texto pequeño", name: "eyebrow", widget: string }
+              - { label: "Título — línea 1", name: "title_1", widget: string }
+              - { label: "Título — línea 2 (cursiva)", name: "title_2", widget: string }
+              - { label: "Frase de apertura", name: "tagline", widget: text }
+              - { label: "Foto de apertura", name: "image", widget: image, required: false }
+
+          - label: "El estudio"
+            name: "studio"
+            widget: object
+            fields:
+              - { label: "Etiqueta", name: "kicker", widget: string }
+              - { label: "Título", name: "title", widget: string }
+              - { label: "Texto destacado", name: "lede", widget: text }
+              - { label: "Texto adicional", name: "body", widget: text }
+
+          - label: "Trayectoria"
+            name: "experience"
+            widget: object
+            fields:
+              - { label: "Etiqueta", name: "kicker", widget: string }
+              - { label: "Título", name: "title", widget: string }
+              - { label: "Texto destacado", name: "lede", widget: text }
+              - { label: "Lugar 1 — nombre", name: "travel_1_place", widget: string }
+              - { label: "Lugar 1 — descripción", name: "travel_1_detail", widget: text }
+              - { label: "Lugar 2 — nombre", name: "travel_2_place", widget: string }
+              - { label: "Lugar 2 — descripción", name: "travel_2_detail", widget: text }
+              - { label: "Lugar 3 — nombre", name: "travel_3_place", widget: string }
+              - { label: "Lugar 3 — descripción", name: "travel_3_detail", widget: text }
+              - { label: "Cifra 1 — número", name: "stat_1_num", widget: string }
+              - { label: "Cifra 1 — etiqueta", name: "stat_1_label", widget: string }
+              - { label: "Cifra 2 — número", name: "stat_2_num", widget: string }
+              - { label: "Cifra 2 — etiqueta", name: "stat_2_label", widget: string }
+              - { label: "Cifra 3 — número", name: "stat_3_num", widget: string }
+              - { label: "Cifra 3 — etiqueta", name: "stat_3_label", widget: string }
+              - { label: "Texto del botón", name: "cta_text", widget: string }
+              - { label: "Nota junto al botón", name: "cta_note", widget: string }
+
+          - label: "Proyectos construidos"
+            name: "projects"
+            widget: object
+            fields:
+              - { label: "Etiqueta", name: "kicker", widget: string }
+              - { label: "Título", name: "title", widget: string }
+              - { label: "Texto destacado", name: "lede", widget: text }
+              - label: "Foto 1 (grande)"
+                name: "photo_1"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+              - label: "Foto 2"
+                name: "photo_2"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+              - label: "Foto 3"
+                name: "photo_3"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+              - label: "Foto 4"
+                name: "photo_4"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+              - label: "Foto 5"
+                name: "photo_5"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+
+          - label: "Talleres de maqueta"
+            name: "model_workshops"
+            widget: object
+            fields:
+              - { label: "Etiqueta", name: "kicker", widget: string }
+              - { label: "Título", name: "title", widget: string }
+              - { label: "Texto destacado", name: "lede", widget: text }
+              - { label: "Texto adicional", name: "body", widget: text }
+              - { label: "Texto del botón", name: "cta_text", widget: string }
+              - label: "Foto 1"
+                name: "photo_1"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+              - label: "Foto 2"
+                name: "photo_2"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+              - label: "Foto 3"
+                name: "photo_3"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+              - label: "Foto 4"
+                name: "photo_4"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+
+          - label: "Talleres a escala 1:1"
+            name: "full_scale_workshops"
+            widget: object
+            fields:
+              - { label: "Etiqueta", name: "kicker", widget: string }
+              - { label: "Título", name: "title", widget: string }
+              - { label: "Texto destacado", name: "lede", widget: text }
+              - { label: "Texto adicional", name: "body", widget: text }
+              - { label: "Texto del botón", name: "cta_text", widget: string }
+              - label: "Foto 1"
+                name: "photo_1"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+              - label: "Foto 2"
+                name: "photo_2"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+              - label: "Foto 3"
+                name: "photo_3"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+              - label: "Foto 4"
+                name: "photo_4"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+
+          - label: "Talleres pasados (galería)"
+            name: "past_workshops"
+            widget: object
+            fields:
+              - { label: "Etiqueta", name: "kicker", widget: string }
+              - { label: "Título", name: "title", widget: string }
+              - label: "Foto 1"
+                name: "photo_1"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+              - label: "Foto 2"
+                name: "photo_2"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+              - label: "Foto 3"
+                name: "photo_3"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+              - label: "Foto 4"
+                name: "photo_4"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+              - label: "Foto 5"
+                name: "photo_5"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+              - label: "Foto 6"
+                name: "photo_6"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+
+          - label: "Planos y dibujos"
+            name: "plans"
+            widget: object
+            fields:
+              - { label: "Etiqueta", name: "kicker", widget: string }
+              - { label: "Título", name: "title", widget: string }
+              - { label: "Texto destacado", name: "lede", widget: text }
+              - { label: "Texto del botón", name: "cta_text", widget: string }
+              - label: "Foto 1"
+                name: "photo_1"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+              - label: "Foto 2"
+                name: "photo_2"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+              - label: "Foto 3"
+                name: "photo_3"
+                widget: object
+                fields:
+                  - { label: "Imagen", name: "src", widget: image, required: false }
+                  - { label: "Descripción", name: "caption", widget: string }
+
+          - label: "Contacto"
+            name: "contact"
+            widget: object
+            fields:
+              - { label: "Etiqueta", name: "kicker", widget: string }
+              - { label: "Título", name: "title", widget: string }
+              - { label: "Texto destacado", name: "lede", widget: text }
+              - { label: "Correo", name: "email", widget: string }
+              - { label: "Teléfono", name: "phone", widget: string }
+              - { label: "Sede", name: "location", widget: string }
+              - { label: "Texto del botón", name: "cta_text", widget: string }
+
+      - file: "content/en.json"
+        label: "🇬🇧 English"
+        name: "en"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: object
+            fields:
+              - { label: "Small label", name: "eyebrow", widget: string }
+              - { label: "Title — line 1", name: "title_1", widget: string }
+              - { label: "Title — line 2 (italic)", name: "title_2", widget: string }
+              - { label: "Opening line", name: "tagline", widget: text }
+              - { label: "Opening photo", name: "image", widget: image, required: false }
+
+          - label: "The studio"
+            name: "studio"
+            widget: object
+            fields:
+              - { label: "Label", name: "kicker", widget: string }
+              - { label: "Title", name: "title", widget: string }
+              - { label: "Highlight text", name: "lede", widget: text }
+              - { label: "Additional text", name: "body", widget: text }
+
+          - label: "Experience"
+            name: "experience"
+            widget: object
+            fields:
+              - { label: "Label", name: "kicker", widget: string }
+              - { label: "Title", name: "title", widget: string }
+              - { label: "Highlight text", name: "lede", widget: text }
+              - { label: "Place 1 — name", name: "travel_1_place", widget: string }
+              - { label: "Place 1 — description", name: "travel_1_detail", widget: text }
+              - { label: "Place 2 — name", name: "travel_2_place", widget: string }
+              - { label: "Place 2 — description", name: "travel_2_detail", widget: text }
+              - { label: "Place 3 — name", name: "travel_3_place", widget: string }
+              - { label: "Place 3 — description", name: "travel_3_detail", widget: text }
+              - { label: "Stat 1 — number", name: "stat_1_num", widget: string }
+              - { label: "Stat 1 — label", name: "stat_1_label", widget: string }
+              - { label: "Stat 2 — number", name: "stat_2_num", widget: string }
+              - { label: "Stat 2 — label", name: "stat_2_label", widget: string }
+              - { label: "Stat 3 — number", name: "stat_3_num", widget: string }
+              - { label: "Stat 3 — label", name: "stat_3_label", widget: string }
+              - { label: "Button text", name: "cta_text", widget: string }
+              - { label: "Note next to button", name: "cta_note", widget: string }
+
+          - label: "Built projects"
+            name: "projects"
+            widget: object
+            fields:
+              - { label: "Label", name: "kicker", widget: string }
+              - { label: "Title", name: "title", widget: string }
+              - { label: "Highlight text", name: "lede", widget: text }
+              - label: "Photo 1 (large)"
+                name: "photo_1"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+              - label: "Photo 2"
+                name: "photo_2"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+              - label: "Photo 3"
+                name: "photo_3"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+              - label: "Photo 4"
+                name: "photo_4"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+              - label: "Photo 5"
+                name: "photo_5"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+
+          - label: "Model workshops"
+            name: "model_workshops"
+            widget: object
+            fields:
+              - { label: "Label", name: "kicker", widget: string }
+              - { label: "Title", name: "title", widget: string }
+              - { label: "Highlight text", name: "lede", widget: text }
+              - { label: "Additional text", name: "body", widget: text }
+              - { label: "Button text", name: "cta_text", widget: string }
+              - label: "Photo 1"
+                name: "photo_1"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+              - label: "Photo 2"
+                name: "photo_2"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+              - label: "Photo 3"
+                name: "photo_3"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+              - label: "Photo 4"
+                name: "photo_4"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+
+          - label: "Full-scale workshops"
+            name: "full_scale_workshops"
+            widget: object
+            fields:
+              - { label: "Label", name: "kicker", widget: string }
+              - { label: "Title", name: "title", widget: string }
+              - { label: "Highlight text", name: "lede", widget: text }
+              - { label: "Additional text", name: "body", widget: text }
+              - { label: "Button text", name: "cta_text", widget: string }
+              - label: "Photo 1"
+                name: "photo_1"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+              - label: "Photo 2"
+                name: "photo_2"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+              - label: "Photo 3"
+                name: "photo_3"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+              - label: "Photo 4"
+                name: "photo_4"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+
+          - label: "Past workshops (gallery)"
+            name: "past_workshops"
+            widget: object
+            fields:
+              - { label: "Label", name: "kicker", widget: string }
+              - { label: "Title", name: "title", widget: string }
+              - label: "Photo 1"
+                name: "photo_1"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+              - label: "Photo 2"
+                name: "photo_2"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+              - label: "Photo 3"
+                name: "photo_3"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+              - label: "Photo 4"
+                name: "photo_4"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+              - label: "Photo 5"
+                name: "photo_5"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+              - label: "Photo 6"
+                name: "photo_6"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+
+          - label: "Plans & drawings"
+            name: "plans"
+            widget: object
+            fields:
+              - { label: "Label", name: "kicker", widget: string }
+              - { label: "Title", name: "title", widget: string }
+              - { label: "Highlight text", name: "lede", widget: text }
+              - { label: "Button text", name: "cta_text", widget: string }
+              - label: "Photo 1"
+                name: "photo_1"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+              - label: "Photo 2"
+                name: "photo_2"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+              - label: "Photo 3"
+                name: "photo_3"
+                widget: object
+                fields:
+                  - { label: "Image", name: "src", widget: image, required: false }
+                  - { label: "Caption", name: "caption", widget: string }
+
+          - label: "Contact"
+            name: "contact"
+            widget: object
+            fields:
+              - { label: "Label", name: "kicker", widget: string }
+              - { label: "Title", name: "title", widget: string }
+              - { label: "Highlight text", name: "lede", widget: text }
+              - { label: "Email", name: "email", widget: string }
+              - { label: "Phone", name: "phone", widget: string }
+              - { label: "Based in", name: "location", widget: string }
+              - { label: "Button text", name: "cta_text", widget: string }

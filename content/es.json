@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "eyebrow": "Estudio de arquitectura",
+    "title_1": "Tebou",
+    "title_2": "arquitectura en guadua",
+    "tagline": "De la maqueta a la escala real: construimos y enseñamos a construir en bambú.",
+    "image": ""
+  },
+  "studio": {
+    "kicker": "El estudio",
+    "title": "Arquitectos especializados en un solo material: el bambú",
+    "lede": "Tebou es un estudio de arquitectura dedicado por completo a la guadua, el bambú americano. Diseñamos, construimos y formamos, siempre desde el mismo principio: conocer el material a fondo antes de dibujar la primera línea.",
+    "body": "Trabajamos con la guadua como estructura, como piel y como lenguaje, combinando técnicas tradicionales de las comunidades del Valle del Cauca con métodos de cálculo y detalle contemporáneos. Cada proyecto —una vivienda, un pabellón, un aula— es también un ejercicio de transmisión: mostramos cómo se corta, se cura, se conecta y se levanta el bambú, para que la técnica no se quede solo en nuestras manos."
+  },
+  "experience": {
+    "kicker": "Trayectoria",
+    "title": "Con base en el Valle del Cauca, trabajando en el mundo",
+    "lede": "Nuestro taller y nuestro guadual están en el Valle del Cauca, Colombia, epicentro histórico de la construcción en bambú. Desde ahí viajamos para construir, enseñar y asesorar allí donde el bambú empieza a interesar como material serio.",
+    "travel_1_place": "Valle del Cauca, Colombia",
+    "travel_1_detail": "Sede del estudio y del guadual. Diseño, corte, curado y construcción de prototipos.",
+    "travel_2_place": "América Latina",
+    "travel_2_detail": "Proyectos y talleres en México, Perú y Ecuador, en colaboración con comunidades y universidades locales.",
+    "travel_3_place": "Europa",
+    "travel_3_detail": "Talleres de maqueta y conferencias en España, Francia e Italia, y consultoría técnica para proyectos experimentales en bambú.",
+    "stat_1_num": "12+",
+    "stat_1_label": "años construyendo en guadua",
+    "stat_2_num": "30+",
+    "stat_2_label": "talleres impartidos",
+    "stat_3_num": "3",
+    "stat_3_label": "continentes recorridos",
+    "cta_text": "Hablemos de tu proyecto",
+    "cta_note": "Respondemos en menos de 48 horas"
+  },
+  "projects": {
+    "kicker": "Proyectos construidos",
+    "title": "Obra en guadua, del boceto a la habitación terminada",
+    "lede": "Una selección de viviendas, pabellones y espacios comunitarios construidos íntegramente en bambú guadua.",
+    "photo_1": { "src": "", "caption": "Vivienda, Valle del Cauca" },
+    "photo_2": { "src": "", "caption": "Detalle de unión" },
+    "photo_3": { "src": "", "caption": "Estructura de cubierta" },
+    "photo_4": { "src": "", "caption": "Pabellón comunitario" },
+    "photo_5": { "src": "", "caption": "Interior, luz natural" }
+  },
+  "model_workshops": {
+    "kicker": "Talleres",
+    "title": "Talleres de maqueta en bambú",
+    "lede": "Un taller intensivo para aprender a diseñar y construir maquetas en bambú: cómo se corta a esta escala, cómo se simulan las uniones reales y cómo se piensa una estructura de guadua antes de construirla a tamaño real.",
+    "body": "Pensado para estudiantes de arquitectura, diseñadores y curiosos del material. Grupos reducidos, todo el material incluido, y un prototipo terminado al final de cada sesión.",
+    "cta_text": "Reservar plaza",
+    "photo_1": { "src": "", "caption": "Taller de maqueta" },
+    "photo_2": { "src": "", "caption": "Maqueta terminada" },
+    "photo_3": { "src": "", "caption": "Detalle de nudo" },
+    "photo_4": { "src": "", "caption": "Grupo de trabajo" }
+  },
+  "full_scale_workshops": {
+    "kicker": "Talleres",
+    "title": "Talleres de construcción a escala 1:1",
+    "lede": "Del papel a la obra real: un taller intensivo donde el grupo levanta una estructura de guadua a tamaño natural, desde la selección y el curado del bambú hasta el ensamblaje final.",
+    "body": "Ideal para colectivos, escuelas de arquitectura y comunidades que quieren incorporar la guadua como técnica constructiva propia. Se adapta a terreno y clima local en cada destino.",
+    "cta_text": "Organizar un taller",
+    "photo_1": { "src": "", "caption": "Levantamiento de estructura" },
+    "photo_2": { "src": "", "caption": "Corte y curado de guadua" },
+    "photo_3": { "src": "", "caption": "Unión estructural real" },
+    "photo_4": { "src": "", "caption": "Obra terminada por el grupo" }
+  },
+  "past_workshops": {
+    "kicker": "Talleres pasados",
+    "title": "Algunos de los grupos con los que hemos construido",
+    "photo_1": { "src": "", "caption": "Taller, España" },
+    "photo_2": { "src": "", "caption": "Taller, Perú" },
+    "photo_3": { "src": "", "caption": "Taller, Colombia" },
+    "photo_4": { "src": "", "caption": "Taller, México" },
+    "photo_5": { "src": "", "caption": "Taller, Francia" },
+    "photo_6": { "src": "", "caption": "Taller, Ecuador" }
+  },
+  "plans": {
+    "kicker": "Documentación técnica",
+    "title": "Planos, cortes y dibujos de detalle",
+    "lede": "Cada estructura se documenta en detalle: plantas, cortes constructivos y despieces de uniones, pensados para poder repetirse en otro lugar.",
+    "cta_text": "Solicitar dosier de proyectos",
+    "photo_1": { "src": "", "caption": "Planta general" },
+    "photo_2": { "src": "", "caption": "Detalle de unión" },
+    "photo_3": { "src": "", "caption": "Sección constructiva" }
+  },
+  "contact": {
+    "kicker": "Contacto",
+    "title": "Construyamos con bambú",
+    "lede": "Proyectos, talleres o consultoría técnica: cuéntanos dónde y qué necesitas construir.",
+    "email": "hola@tebou.studio",
+    "phone": "+57 300 000 0000",
+    "location": "Valle del Cauca, Colombia",
+    "cta_text": "Escribir a Tebou"
+  }
+}
